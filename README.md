@@ -1,7 +1,7 @@
 # Demo_JWT
-JWT
-How to use of the Application
-  1. Create user
+
+#How to use of the Application
+###  1. Create user
       URL: http://localhost:8080/user/save
       type: POST
       Sample Body:{
@@ -11,7 +11,7 @@ How to use of the Application
                      "ADMIN"]
                     }
                     
- 2. Get Token of user
+### 2. Get Token of user
     URL: http://localhost:8080/user/login
     type: POST
     Sample Body: {
@@ -19,8 +19,8 @@ How to use of the Application
                  "pass": "pass6"
                 }
                 
-  3. Use token for other requests
-      a. create Car
+###  3. Use token for other requests
+ ####     a. create Car
          URL: http://localhost:8080/cars/
          Type: POST
          Header: Authorization // provide token
